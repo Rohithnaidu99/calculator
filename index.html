@@ -5,6 +5,7 @@
     </header>
     <body>
         <h1> Rohith  Calculator  </h1>
+        <button onclick="changeMode()">Dark/Light mode</button>
         <div class= "formstyle">
         <form name = "form1">
             
@@ -40,6 +41,13 @@
           <br> 
           
         </form>
+        <script>
+          function changeMode(){
+              let mybody = document.body;
+              mybody.classList.toggle('mydark')
+          }
+      </script>
+
         </div>
         </body>
 </html>
